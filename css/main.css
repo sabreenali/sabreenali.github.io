@@ -1,43 +1,78 @@
 body {
     margin: 60px auto;
     width: 70%;
+
 }
-nav ul, footer ul {
+nav ul{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    text-align: right;
 }
-nav ul li, footer ul li {
+nav ul li{
     display: inline;
     margin-right: 20px;
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: black;
+    text-align: right;
 }
 a:hover {
-    text-decoration: underline;
+    color: gray;
 }
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-align: right;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
+}
+img.me {
+    border-radius: 50%;
+    padding: 5px;
+    float:left;
+    width: 200px;
+    height: 200px;
+    align-self: flex-start;
+    padding-left: 20px;
+}
+img.icons {
+    height: 40px;
+}
+.navContainer{
+	float: left;
+	background-color:inherit;
+	width:50%;
+  height:200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+.links{
+	float: left;
+}
+.imageContainer{
+	float: right;
+	width:50%;
+  height:300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /*background-color: black;*/
 }
