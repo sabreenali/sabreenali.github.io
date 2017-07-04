@@ -30,6 +30,8 @@ a {
     text-decoration: none;
     color: black;
     text-align: left;
+    transition: color 0.4s ease-out;
+    -webkit-transition: color 0.4s ease-out;
 }
 a:hover {
     color: gray;
@@ -65,7 +67,14 @@ img.icons {
     height: 50px;
     opacity: 1;
     padding:10px;
+    transition: opacity 0.4s ease-out;
+    -webkit-transition: opacity 0.4s ease-out;
 }
+img.icons:hover{
+  opacity: 0.5;
+
+}
+
 .navContainer{
 	float: left;
 	width:50%;
